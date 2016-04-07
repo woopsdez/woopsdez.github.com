@@ -1,0 +1,15 @@
+---
+layout: default
+---
+		{% for post in site.posts %}
+		<div class="work">
+			<a href="{{post.url}}">
+				<img src="{{ site.baseurl }}{{ post.banner }}" class="media" alt="{{page.title}}"/>
+				<div class="caption">
+					<div class="work_title">
+						<h1>{{post.title}}</h1>
+					</div>
+				</div>
+			</a>
+		</div>
+		{% endfor %}

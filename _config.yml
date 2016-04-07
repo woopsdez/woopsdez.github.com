@@ -1,0 +1,37 @@
+# Exclude build files
+exclude: ["node_modules", "gulpfile.js", "package.json", "theme", "raw"]
+
+# Site Settings
+title: 						"Miki Ishijima"
+description: 			"イシジマミキ"
+email: 						"woops.mirai@gmail.com"
+baseurl: 					"./"
+url: 					    "http://mikiishijima.com"
+
+# Author Settings
+author_name: 				"Miki Ishijima"
+author_url: 				"http://mikiishijima.com/"
+author_bio: 				"デザインワーク、ソフトウェア開発のワークフロー、デザイン自体の考え方に関する著書を持つ。2013年にザ・マーズナレッジ株式会社設立。"
+author_email: 			"woops.mirai@gmail.com"
+author_image: 			"https://dl.dropboxusercontent.com/u/797976/profile/woopsdez-owner-sq.jpg"
+
+# Social Settings
+twitter_url: 				"http://twitter.com/woopsdez"
+facebook_url: 			"http://faceboo.com/woopsdez"
+github_url:  				"http://github.com/woopsdez"
+youtube_url:  			"https://www.youtube.com/user/woopsdez"
+dribbble_url:  			"http://dribbble.com/woopsdez"
+googleplus_url: 		""
+instagram_url:  		""
+pinterest_url:  		""
+linkedin_url:  			""
+
+# SASS Settings
+# DO NOT MODIFY
+sass:
+ sass_dir: "assets/css/"
+ style: :compressed
+
+# Build Settings
+markdown: 					kramdown
+permalink: 					pretty
