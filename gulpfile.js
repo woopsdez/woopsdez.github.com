@@ -62,15 +62,6 @@ gulp.task('push', function() {
     });
 });
 
-// gulp.task('push', function(){
-//     return gulp.src('.')
-//         .pipe(git.add())
-//         .pipe(git.commit(argv['m']))
-//         .pipe(git.push('origin','master', function(err){
-//             if (err) throw err;
-//         }));
-// });
-
 /**
  * Wait for jekyll-build, then launch the Server
  */
@@ -113,7 +104,8 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch('assets/css/*.scss', ['sass']);
-    gulp.watch(['*.md', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch('assets/js/*.js', ['jekyll-rebuild']);
+    gulp.watch(['index.html', '*.md', '_layouts/*.html', '_posts/*', 'assets/css/*.css'], ['jekyll-rebuild']);
 });
 
 /**

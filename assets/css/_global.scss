@@ -1,0 +1,24 @@
+body{
+    background: $body-bg;
+    color: $text-color;
+}
+
+a{
+	color: $brand-color;
+	font-weight: 600;
+	text-decoration: none;
+	&:hover{
+		color: lighten($brand-color,10%);
+	}
+  img:hover{
+    opacity: .8;
+  }
+}
+
+.button{
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 9999;
+}

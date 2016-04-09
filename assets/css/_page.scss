@@ -1,0 +1,127 @@
+a{
+	color: $brand-color;
+}
+
+.bg{
+	display: block;
+	position: fixed; 
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: .4;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	@media screen and (min-width: 1024px) {
+		opacity: 1;
+		background-position: right top;
+	}
+}
+
+.around-page{
+	z-index: 998;
+	margin-bottom: 100px;
+	&:nth-child(odd) {float: left;}
+	&:nth-child(even){float: right;}
+	@media screen and (min-width: 1024px) {
+		position: fixed;
+		top: 45%;
+		&:nth-child(odd) {left: 10px;}
+		&:nth-child(even){right: 10px;}
+	}
+
+	a{
+		opacity: .5;
+		color: #fff;
+		font-size: 120px;
+		font-family: Lato;
+		font-weight: 100;
+
+		transition:all .1s linear;
+    -webkit-transition:all .1s linear;
+    -moz-transition:all .1s linear;
+    -o-transition:all .1s linear;
+
+    &:hover{opacity: 1;}
+
+		span{
+			display: none;
+			@media screen and (min-width: 1024px) {
+				display: inline-block;
+				opacity: 0;
+				&:hover{opacity: 1;}
+			}
+		}		
+		
+	}
+}
+
+.goto-top{
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+	z-index: 999;
+	height: 66px;
+	text-align: right;
+	@media screen and (min-width: 768px) {
+		top: 30px;
+		right: 30px;
+	}
+}
+
+.content{
+	z-index: 997;
+	position: relative;
+	top: 50px;
+	right: auto;
+	max-width: 760px;
+	margin: 0 auto 60px;
+	padding: 30px;
+	color: lighten($text-color,30%);
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	border-bottom: 1px solid rgba(#fff, .1);
+
+	@media screen and (min-width: 1024px) {
+		position: absolute;
+		width: 50%;
+		right: 5%;
+		border: none;
+
+		&.dark{
+			color: $grey-color-dark;
+			h1,h2,h3,h4,h5,h6{color: darken($text-color,30%);}
+			h1{text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);}
+		}
+
+		&.light{
+			color: $grey-color-light;
+			h1,h2,h3,h4,h5,h6{color: lighten($text-color,80%);}
+			h1{text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);}
+		}
+	}
+
+	h1,h2,h3,h4,h5,h6{
+		color: lighten($text-color,30%);
+		font-family: $heading-font-family;
+	}
+	h1{
+		font-size: 60px;
+		font-weight: 700; 
+		line-height: 86px;
+	}
+	h2{font-size: 1.8em;}
+	h3{
+		margin: 60px 0 10px;
+		font-size: 1.6em;
+		font-weight: 100;
+	}
+	p{margin: 10px 0 30px}
+	small{font-size: $small-font-size;}
+	ul{
+		li{list-style-position: inside}
+	}
+	hr{opacity: .1;}
+}

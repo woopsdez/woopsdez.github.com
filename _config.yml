@@ -1,11 +1,11 @@
 # Exclude build files
-exclude: ["node_modules", "gulpfile.js", "package.json", "theme", "raw"]
+exclude: ["node_modules", "gulpfile.js", "package.json","theme", "raw"]
 
 # Site Settings
 title: 						"Miki Ishijima"
 description: 			"イシジマミキ"
 email: 						"woops.mirai@gmail.com"
-baseurl: 					"./"
+baseurl: 					""
 url: 					    "http://mikiishijima.com"
 
 # Author Settings

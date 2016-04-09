@@ -1,0 +1,33 @@
+---
+layout: page
+title: "Contribution"
+background: "bg-contact.svg" 
+color: dark
+---
+
+<div class="slides">
+	<a href="#">
+		<img src="{{site.baseurl}}/content/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
+		<div class="caption">
+			<div class="title">
+				<h2>Private Works</h2>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<img src="{{site.baseurl}}/content/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
+		<div class="caption">
+			<div class="title">
+				<h2>Private Works</h2>
+			</div>
+		</div>
+	</a>
+	<a href="#">
+		<img src="{{site.baseurl}}/content/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
+		<div class="caption">
+			<div class="title">
+				<h2>Private Works</h2>
+			</div>
+		</div>
+	</a>
+</div>

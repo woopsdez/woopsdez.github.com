@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<section class="top">	
-	<div class="wrapper content_header clearfix">
-		<div class="work_nav">
-					
-			<ul class="btn clearfix">
-				<li><a href="#" class="previous" data-title="Previous"></a></li>
-				<li><a href="{{site.url}}" class="grid" data-title="Portfolio"></a></li>
-				<li><a href="#" class="next" data-title="Next"></a></li>
-			</ul>							
-			
-		</div><!-- end work_nav -->
-		<h1 class="title">{{page.title}}</h1>
-	</div>		
-</section><!-- end top -->
+<div class="bg" style="background-image:url('{{site.baseurl}}/content/images/{{page.background}}');"></div>
 
-<section class="wrapper">
-	<div class="content">
-		{{content}}
-	</div><!-- end content -->
-</section>
+<div class="content {{page.color}}">
+	<h1>{{page.title}}</h1>
+	{{content}}
+</div>
+
+<nav class="around-page">
+	<a href="../">&lt;<span>Prev</span></a>
+</nav>
+<nav class="around-page">
+	<a href="#"><span>Next</span>&gt;</a>
+</nav>
+
+<nav class="goto-top">
+	<a href="{{site.url}}"><span class="fa-stack fa-2x">
+		  <i class="fa fa-circle fa-stack-2x"></i>
+		  <i class="fa fa-angle-up fa-stack-1x fa-inverse"></i>
+		</span></a>
+</nav>
