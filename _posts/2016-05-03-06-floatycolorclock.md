@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 title: "Floaty Color Clock"
 banner: ss-floatycolorclock1.png
 release-date: 2016

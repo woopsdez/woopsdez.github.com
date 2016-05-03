@@ -366,11 +366,11 @@ h5, h6 {
   margin: -1px 0 0;
   padding: 0;
   background: #000; }
-  .grid .inner img {
+  .grid .inner a img {
     display: block;
     max-width: 100%;
     height: auto;
-    opacity: .2; }
+    opacity: .8; }
   .grid .inner .desc h2 {
     font-size: 32px;
     font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif; }
@@ -379,7 +379,7 @@ h5, h6 {
     font-weight: normal;
     line-height: 1.4; }
 
-@media (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .inner .desc {
     padding: 10px 10px 30px; }
     .inner .desc h2, .inner .desc p {
@@ -403,13 +403,14 @@ h5, h6 {
     .inner a {
       display: block;
       width: 100%; }
+      .inner a img {
+        width: 50%;
+        float: left;
+        opacity: 0.2 !important; }
       .inner a:hover img {
-        opacity: 1; }
+        opacity: 1 !important; }
     .inner:nth-child(odd) a {
       background: rgba(0, 0, 0, 0.8); }
-    .inner img {
-      width: 50%;
-      float: left; }
     .inner .desc {
       width: 39%;
       float: left;
@@ -439,7 +440,10 @@ h5, h6 {
       color: black; }
     .desc p {
       width: 100%;
+      margin: 20px auto 0;
       font-size: 16px; }
+  a img {
+    opacity: .4 !important; }
   a:hover .desc {
     transition: all .5s linear;
     opacity: 1; } }

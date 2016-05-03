@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 title: "オトゲマトメ"
 banner: ss-otogematome.png
 release-date: 2014

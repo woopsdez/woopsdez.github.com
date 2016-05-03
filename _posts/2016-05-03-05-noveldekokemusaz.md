@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 title: "ノベル デ こけむさズ"
 banner: ss-noveldekokemusaz1.png
 release-date: 2014

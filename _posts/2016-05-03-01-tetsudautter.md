@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 title: "てつだうったー"
 banner: ss-tetsudautter.png
 release-date: 2009

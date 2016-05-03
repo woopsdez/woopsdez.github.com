@@ -6,11 +6,11 @@
 		margin: -1px 0 0;
 		padding: 0;
 		background: #000;
-		img{
+		a img{
 			display: block;
 			max-width: 100%;
 			height: auto;
-			opacity: .2;
+			opacity: .8;
 		}
 		.desc{
 			h2{
@@ -26,7 +26,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 400px ) and (max-width: 768px) {
 	.inner{
 		.desc{
 			padding: 10px 10px 30px;
@@ -54,14 +54,17 @@
 		a{
 			display: block;
 			width: 100%;
-			&:hover img{opacity: 1;}
+			img{
+				width: 50%;
+				float: left;
+				opacity: 0.2 !important;
+			}
+			&:hover img{
+				opacity: 1 !important;
+			}
 		}
 		&:nth-child(odd){
 			a{background: rgba(0,0,0,.8);}
-		}
-		img{
-			width: 50%;
-			float: left;
 		}
 		.desc{
 			width: 39%;
@@ -95,9 +98,13 @@
 		h2{color: black;}
 		p{
 			width: 100%;
+			margin: 20px auto 0;
 			font-size: 16px;
 		}
-	}	
+	}
+	a{
+		img{opacity: .4 !important;}
+	}
 	a:hover{
 		.desc{
 			transition:all .5s linear;

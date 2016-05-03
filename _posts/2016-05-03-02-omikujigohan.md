@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 title: "おみくじゴハン"
 banner: ss-omikujigohan.png
 release-date: 2009
