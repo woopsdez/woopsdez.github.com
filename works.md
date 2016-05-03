@@ -1,8 +1,6 @@
 ---
 layout: grid
 title: "Private works"
-background: "" 
-color: light
 ---
 
 ## Wall Clock

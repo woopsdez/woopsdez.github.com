@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Wishlist"
 background: "bg-biography.jpg" 
 color: dark

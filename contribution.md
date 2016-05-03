@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: grid
 title: "Contribution"
 background: "bg-contact.svg" 
 color: dark

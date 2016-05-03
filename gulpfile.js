@@ -42,17 +42,17 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 });
 
 /**
- * Resize & Optimize Image
+ * Make thumbnail
  */ 
-gulp.task('image', function() {
-    gulp.src('content/images/**/**/*.{jpg,png}', {base:'content/images/'})
-    .pipe(imageResize({width : 1000}))
-    .pipe(imagemin({
-        progressive: true,
-        svgoPlugins: [{removeViewBox: false}],
-        use: [pngquant()]
-    }))
-    .pipe(gulp.dest('_site/assets/images/'));
+gulp.task('thumbnail', function() {
+    gulp.src('assets/images/privateworks/*.{jpg,png}', {base: 'assets/images/privateworks/'})
+      .pipe(imageResize({
+        width: 350,
+        height:350,
+        crop: true,
+        upscale: false
+        }))
+    .pipe(gulp.dest('assets/images/privateworks/thumbnail/'));
 });
 
 /**

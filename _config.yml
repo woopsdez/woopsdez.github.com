@@ -3,7 +3,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json","theme", "raw"]
 
 # Site Settings
 title: 						"Miki Ishijima"
-description: 			"イシジマミキ"
+description: 			"イシジマミキ 徹底解説"
 email: 						"woops.mirai@gmail.com"
 baseurl: 					""
 url: 					    "http://mikiishijima.com"
@@ -19,12 +19,6 @@ author_image: 			"https://dl.dropboxusercontent.com/u/797976/profile/woopsdez-ow
 twitter_url: 				"http://twitter.com/woopsdez"
 facebook_url: 			"http://faceboo.com/woopsdez"
 github_url:  				"http://github.com/woopsdez"
-youtube_url:  			"https://www.youtube.com/user/woopsdez"
-dribbble_url:  			"http://dribbble.com/woopsdez"
-googleplus_url: 		""
-instagram_url:  		""
-pinterest_url:  		""
-linkedin_url:  			""
 
 # SASS Settings
 # DO NOT MODIFY

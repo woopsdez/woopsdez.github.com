@@ -1,5 +1,5 @@
 ---
-layout: double
+layout: single
 title: "My dearest pets"
 background: "bg-pets.jpg" 
 color: light
