@@ -249,6 +249,14 @@ input, select {
   .highlight .il {
     color: #099; }
 
+header ul.social li a,
+header nav,
+.main .work a .caption {
+  transition: all .5s linear;
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -o-transition: all .5s linear; }
+
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
@@ -304,27 +312,6 @@ a {
   a img:hover {
     opacity: .8; }
 
-.button {
-  display: block;
-  background: #fff;
-  border-radius: 10px;
-  padding: 5px;
-  z-index: 9999; }
-
-a {
-  color: #999; }
-
-.wrapper {
-  margin: 0 auto; }
-
-header ul.social li a,
-header nav,
-.main .work a .caption {
-  transition: all .5s linear;
-  -webkit-transition: all .5s linear;
-  -moz-transition: all .5s linear;
-  -o-transition: all .5s linear; }
-
 h1, h2, h3, h4, h5, h6 {
   color: #4b4848;
   font-family: "raleway-regular", arial;
@@ -365,6 +352,19 @@ h5, h6 {
 .clearfix {
   *zoom: 1; }
 
+.button {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 9999; }
+
+.tooltip {
+  display: none; }
+
+.wrapper {
+  margin: 0 auto; }
+
 /*  Header  */
 @media (min-width: 1099px) {
   header {
@@ -380,7 +380,12 @@ h5, h6 {
     overflow: hidden;
     z-index: 9999; }
   header .logo {
-    margin-top: 100px; }
+    margin-top: 80px; }
+    header .logo img {
+      width: 40px; }
+    header .logo h1 {
+      color: #FFF;
+      font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif; }
   header nav ul {
     display: block;
     overflow: hidden;

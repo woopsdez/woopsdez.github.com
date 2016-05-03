@@ -1,3 +1,12 @@
+header ul.social li a,
+header nav,
+.main .work a .caption{
+    transition:all .5s linear;
+    -webkit-transition:all .5s linear;
+    -moz-transition:all .5s linear;
+    -o-transition:all .5s linear;
+}
+
 @-webkit-keyframes fadein {
   from { opacity:0;}
   to   { opacity:1;}

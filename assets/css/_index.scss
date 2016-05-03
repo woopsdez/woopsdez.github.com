@@ -1,43 +1,7 @@
 @import "variables";
 
-a{color: #999;}
+.tooltip{display: none;}
 .wrapper{margin: 0 auto;}
-
-header ul.social li a,
-header nav,
-.main .work a .caption{
-    transition:all .5s linear;
-    -webkit-transition:all .5s linear;
-    -moz-transition:all .5s linear;
-    -o-transition:all .5s linear;
-}
-
-h1, h2, h3, h4, h5 ,h6{
-    color: #4b4848;
-    font-family: "raleway-regular", arial;
-    letter-spacing: 1px;
-}
-
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
-
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
-}
 
 /*  Header  */
 @media (min-width:1099px){
@@ -56,7 +20,12 @@ h5, h6          { font-weight: bolder }
     }
 
     header .logo{
-        margin-top: 100px;
+        margin-top: 80px;
+        img{width: 40px}
+        h1{
+            color: #FFF;
+            font-family: $base-font-family;
+        }
     }
 
     header nav ul{
@@ -190,7 +159,6 @@ h5, h6          { font-weight: bolder }
     box-sizing: border-box;
     position: relative;
     z-index: 55;
-    // background: #f6f6f6;
     clear: both;
 }
 
