@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>apple-icon-180x180 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="apple-icon-180x180-copy">
+            <rect id="Rectangle-13" fill="#AE2132" x="0" y="0" width="180" height="180" rx="8"></rect>
+            <g id="M" transform="translate(0.000000, -23.000000)">
+                <rect id="Rectangle-3" fill="#FFFFFF" x="30" y="49" width="121" height="121" rx="8"></rect>
+                <path d="M0,0 C0,0 45.2176301,97.8283539 90.4352646,97.8283539 C135.652899,97.8283539 180.870536,0 180.870536,0 L0,0 Z" id="Path-1" fill="#AE2132"></path>
+            </g>
+            <g id="face02" transform="translate(49.000000, 94.000000)">
+                <ellipse id="Oval-1" fill="#AE2132" cx="74.5" cy="16" rx="9.5" ry="16"></ellipse>
+                <ellipse id="Oval-1-Copy" fill="#AE2132" cx="9.5" cy="16" rx="9.5" ry="16"></ellipse>
+                <path d="M41,65.3014793 C49.2842712,65.3014793 56,65.2842712 56,57 C56,48.7157288 49.2842712,42 41,42 C32.7157288,42 26,48.7157288 26,57 C26,65.2842712 32.7157288,65.3014793 41,65.3014793 Z" id="Oval-3" stroke="#AE2132" stroke-width="8" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
