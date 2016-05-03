@@ -7,7 +7,7 @@ color: dark
 
 <div class="slides">
 	<a href="#">
-		<img src="{{site.baseurl}}/content/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
+		<img src="{{site.baseurl}}/assets/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
 		<div class="caption">
 			<div class="title">
 				<h2>Private Works</h2>
@@ -15,7 +15,7 @@ color: dark
 		</div>
 	</a>
 	<a href="#">
-		<img src="{{site.baseurl}}/content/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
+		<img src="{{site.baseurl}}/assets/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
 		<div class="caption">
 			<div class="title">
 				<h2>Private Works</h2>
@@ -23,7 +23,7 @@ color: dark
 		</div>
 	</a>
 	<a href="#">
-		<img src="{{site.baseurl}}/content/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
+		<img src="{{site.baseurl}}/assets/images/slides/slides_nicovideo.png" class="media" alt="hogehoge"/>
 		<div class="caption">
 			<div class="title">
 				<h2>Private Works</h2>

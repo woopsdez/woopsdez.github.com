@@ -25,7 +25,7 @@ __122文字__ 1982年生まれ。Web、DTPに限らず幅広くデザインを�
 ### <i class="fa fa-picture-o"></i> プロフィール用写真
 サイズは400px以上あります。右クリックで保存してお使いください。
 <div class="profile-photo">
-	<img src="/content/images/profile/mikiishijima-01.jpg" width="200" alt=""><img src="/content/images/profile/mikiishijima-02.jpg" width="200" alt=""><img src="/content/images/profile/mikiishijima-03.jpg" width="200" alt="">
+	<img src="/assets/images/profile/mikiishijima-01.jpg" width="200" alt=""><img src="/assets/images/profile/mikiishijima-02.jpg" width="200" alt=""><img src="/assets/images/profile/mikiishijima-03.jpg" width="200" alt="">
 </div>
 
 ### <i class="fa fa-book"></i> 執筆書籍

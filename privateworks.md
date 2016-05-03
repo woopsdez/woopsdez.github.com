@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: grid
 title: "Private works"
 background: "" 
 color: light

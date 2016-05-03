@@ -7,9 +7,11 @@
 // Modules and Variables
 @import "variables";
 @import "syntax-highlighting";
+@import "simplegrid.css";
 @import "animation";
 
 // Templates
 @import "global";
-@import "index";
+@import "grid";
 @import "page";
+@import "index";

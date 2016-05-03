@@ -16,19 +16,10 @@ var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
  * Build the Jekyll Site
  */
 var messages = {jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'};
-var option = minimist(process.argv.slice(2));
-var config = {localBuild: '_config.yml,_config_dev.yml'};
-if (option['e'] === 'production') {
-    config = {option:'', yml: ''};
-} else {
-    config = {option:'--config' ,yml: '_config.yml,_config_dev.yml'};
-};
 
 gulp.task('jekyll-build', function (done) {
-    console.log(option['e']);
-    console.log(config.option, config.yml);
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build', config.option, config.yml], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -37,29 +28,6 @@ gulp.task('jekyll-build', function (done) {
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
-});
-
-/**
- * Deploy the Jekyll Site
- */
-
-// parse command line argument
-var argv = minimist(process.argv.slice(2));
-
-gulp.task('add', function() {
-    return gulp.src('.')
-        .pipe(git.add());
-});
-
-gulp.task('commit', function() {
-    return gulp.src('.')
-        .pipe(git.commit(argv['m']));
-});
-
-gulp.task('push', function() {
-    return git.push('origin', 'master', function (err) {
-        if (err) throw err;
-    });
 });
 
 /**
@@ -84,7 +52,7 @@ gulp.task('image', function() {
         svgoPlugins: [{removeViewBox: false}],
         use: [pngquant()]
     }))
-    .pipe(gulp.dest('_site/content/images/'));
+    .pipe(gulp.dest('_site/assets/images/'));
 });
 
 /**
