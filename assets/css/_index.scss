@@ -3,6 +3,16 @@
 .tooltip{display: none;}
 .wrapper{margin: 0 auto;}
 
+header .logo{
+    margin-top: 80px;
+    img{width: 40px}
+    h1{
+        display: inline;
+        color: #FFF;
+        font-family: $base-font-family;
+    }
+}
+
 /*  Header  */
 @media (min-width:1099px){
     header{
@@ -17,15 +27,6 @@
         float: left;
         overflow: hidden;
         z-index: 9999;
-    }
-
-    header .logo{
-        margin-top: 80px;
-        img{width: 40px}
-        h1{
-            color: #FFF;
-            font-family: $base-font-family;
-        }
     }
 
     header nav ul{
