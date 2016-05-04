@@ -7,7 +7,7 @@ description: 			"イシジマミキ 徹底解説"
 email: 						"woops.mirai@gmail.com"
 baseurl: 					"http://mikiishijima.com"
 url: 					    "http://mikiishijima.com"
-banner:           "assets/images/ogp-image.png"
+banner:           "http://mikiishijima.com/assets/images/ogp-image.png"
 
 # Author Settings
 author_name: 				"Miki Ishijima"

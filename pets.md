@@ -3,6 +3,7 @@ layout: single
 title: "My dearest pets"
 background: "bg-pets.jpg" 
 color: light
+description: うしのような猫と、ゴマおはぎ色の猫の二匹です。
 ---
 
 ## ミー オス 8才 <small>2007年生まれ</small>

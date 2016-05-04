@@ -2,15 +2,16 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta charset="utf-8">
   <meta name="author" content="{{site.author_name}}">
-  <meta name="description" content="{{site.description}}"/>
+  <meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.description}}{% endif %}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
   <!-- ogp -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{% if page.title %}{{page.title}} - {% endif %}Miki Ishijima" />
-  <meta property="og:description" content="{{site.excerpt}}">
-  <meta property="og:image" content="{{ site.baseurl }}{% if page.title %}{{ page.background }}{% else %}{{ site.banner }}{% endif %}" />
+  <meta property="og:description" content="{% if page.content %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+  <meta property="og:image" content="
+  {% if page.background %}{{site.url}}/assets/images/bg/{{page.background}}{% else %}{{site.banner}}{% endif %}" />
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@woopsdez">
 
