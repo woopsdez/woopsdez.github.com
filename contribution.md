@@ -1,4 +1,0 @@
----
-layout: grid
-category: contribution
----

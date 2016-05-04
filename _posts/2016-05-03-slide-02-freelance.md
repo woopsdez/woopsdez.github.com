@@ -3,7 +3,7 @@ layout: null
 title: "恋愛になぞらえるフリーランス仕事術"
 banner: slide_freelance_130820.jpg
 works-url: https://speakerdeck.com/woopsdez/lian-ai-ninazoraeruhuriransushi-shi-shu
-category: contribution
+category: slide
 excerpt_separator: <!--more-->
 ---
 

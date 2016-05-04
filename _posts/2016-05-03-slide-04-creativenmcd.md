@@ -3,7 +3,7 @@ layout: null
 title: "クリエイティブ名刺を作ってみよう！"
 banner: slide_creativenmcd_130804.jpg
 works-url: https://speakerdeck.com/woopsdez/illustratordekurieiteibuming-ci-wozuo-tutemiyou
-category: contribution
+category: slide
 excerpt_separator: <!--more-->
 ---
 

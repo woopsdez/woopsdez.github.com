@@ -3,7 +3,7 @@ layout: null
 title: "Photoshop 厳選機能紹介"
 banner: slide_photoshop_0117.jpg
 works-url: https://speakerdeck.com/woopsdez/marutidebaisushi-dai-falseapurizhi-zuo-wozhu-keruphotoshop-yan-xuan-ji-neng-shao-jie
-category: contribution
+category: slide
 excerpt_separator: <!--more-->
 ---
 

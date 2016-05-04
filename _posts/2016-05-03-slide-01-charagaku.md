@@ -3,7 +3,7 @@ layout: null
 title: "セルフブランディングではないキャラ学"
 banner: slide_charagaku_130206.jpg
 works-url: https://speakerdeck.com/woopsdez/ni-zhang-ritochai-bie-hua-seruhuburandeingudehanai-kiyaraxue
-category: contribution
+category: slide
 excerpt_separator: <!--more-->
 ---
 

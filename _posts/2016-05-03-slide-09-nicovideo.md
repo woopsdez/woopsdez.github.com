@@ -3,7 +3,7 @@ layout: null
 title: "ニコニコ動画 超チューニング祭り"
 banner: slides_nicovideo.png
 works-url: http://www.slideshare.net/woopsdez/nicohaya
-category: contribution
+category: slide
 excerpt_separator: <!--more-->
 ---
 

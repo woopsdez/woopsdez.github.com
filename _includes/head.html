@@ -6,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
   <!-- ogp -->
-  <meta property="og:title" content="{{page.title}}" />
-  <meta property="og:type" content="blog" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
-  <meta property="og:image" content="{{ site.baseurl }}{% if page.title %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{page.title}} - Miki Ishijima" />
+  <meta property="og:description" content="{{page.excerpt}}">
+  <meta property="og:image" content="{{ site.baseurl }}{% if page.title %}{{ page.background }}{% else %}{{ site.banner }}{% endif %}" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@woopsdez">
 
   <!-- style -->
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/main.css">

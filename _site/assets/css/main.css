@@ -469,17 +469,17 @@ a {
 .around-page {
   z-index: 998;
   margin-bottom: 100px; }
-  .around-page:nth-child(odd) {
+  .around-page.prev {
     float: left; }
-  .around-page:nth-child(even) {
+  .around-page.next {
     float: right; }
   @media screen and (min-width: 1024px) {
     .around-page {
       position: fixed;
       top: 45%; }
-      .around-page:nth-child(odd) {
+      .around-page.prev {
         left: 10px; }
-      .around-page:nth-child(even) {
+      .around-page.next {
         right: 10px; } }
   .around-page a {
     opacity: .5;
@@ -515,11 +515,6 @@ a {
       right: 30px; } }
 
 .content {
-  z-index: 997;
-  position: relative;
-  top: 50px;
-  right: auto;
-  max-width: 760px;
   margin: 0 auto 60px;
   padding: 30px;
   color: #c5c5c5;
@@ -566,6 +561,18 @@ a {
     list-style-position: inside; }
   .content hr {
     opacity: .1; }
+  .content.single {
+    z-index: 997;
+    position: relative;
+    top: 50px;
+    right: auto;
+    max-width: 760px; }
+  .content.thumbnail {
+    position: static;
+    top: inherit;
+    right: inherit;
+    width: 80%;
+    max-width: 80%; }
 
 .tooltip {
   display: none; }
