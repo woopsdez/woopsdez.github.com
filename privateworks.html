@@ -1,24 +1,4 @@
 ---
-layout: default
+layout: grid
+category: privateworks
 ---
-
-<div class="grid">
-{% for post in site.posts %}
-	<div class="inner">
-   	<a href="{{ post.works-url | prepend: site.baseurl }}" class="clearfix">
-   		<img src="{{base.url}}/assets/images/privateworks/thumbnail/{{ post.banner }}" alt="">
-   		<div class="desc">
-   			<h2>{{ post.title }}</h2>
-   			<p>{{ post.content }}</p>
-   		</div>
-   	</a>
-   </div>
-{% endfor %}
-</div>
-
-<nav class="goto-top">
-	<a href="{{site.url}}"><span class="fa-stack fa-2x">
-		  <i class="fa fa-circle fa-stack-2x"></i>
-		  <i class="fa fa-angle-up fa-stack-1x fa-inverse"></i>
-		</span></a>
-</nav>

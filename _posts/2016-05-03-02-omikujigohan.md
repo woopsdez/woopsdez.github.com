@@ -4,9 +4,13 @@ title: "おみくじゴハン"
 banner: ss-omikujigohan.png
 release-date: 2009
 works-url: http://omikujigohan.woopsdez.jp/
+category: privateworks
+excerpt_separator: <!--more-->
 ---
 
 PHPの習作として、おみくじを作ってみようと企画。ランチに迷ったときに代わりに決めてくれるサービスとして公開し、そこそこ取り上げていただきました。
+
+<!--more-->
 
 7年ぶりにアクセスしたら動かなくなっていたので書き直し。良い勉強になりました。
 
