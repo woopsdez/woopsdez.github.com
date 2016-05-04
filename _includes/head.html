@@ -8,8 +8,8 @@
   <!-- ogp -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{page.title}} - Miki Ishijima" />
-  <meta property="og:description" content="{{page.excerpt}}">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} - {% endif %}Miki Ishijima" />
+  <meta property="og:description" content="{{site.excerpt}}">
   <meta property="og:image" content="{{ site.baseurl }}{% if page.title %}{{ page.background }}{% else %}{{ site.banner }}{% endif %}" />
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@woopsdez">
