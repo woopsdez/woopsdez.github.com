@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import "//fonts.googleapis.com/css?family=Domine:700|Open+Sans:400,600|Lato:100,400|Source+Code+Pro:500";
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -563,14 +561,12 @@ a {
     opacity: .1; }
   .content.single {
     z-index: 997;
-    position: relative;
+    position: absolute;
     top: 50px;
-    right: auto;
+    right: 10%;
     max-width: 760px; }
   .content.thumbnail {
     position: static;
-    top: inherit;
-    right: inherit;
     width: 80%;
     max-width: 80%; }
 

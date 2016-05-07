@@ -1,12 +1,9 @@
 var gulp        = require('gulp');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
-var git         = require('gulp-git');
 var imageResize = require('gulp-image-resize');
 var browserSync = require('browser-sync');
 var cp          = require('child_process');
-var minimist    = require('minimist');
-var runSequence = require('run-sequence');
 const imagemin  = require('gulp-imagemin');
 const pngquant  = require('imagemin-pngquant');
 
@@ -42,20 +39,6 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 });
 
 /**
- * Make thumbnail
- */ 
-gulp.task('thumbnail', function() {
-    gulp.src('assets/images/privateworks/*.{jpg,png}', {base: 'assets/images/privateworks/'})
-      .pipe(imageResize({
-        width: 350,
-        height:350,
-        crop: true,
-        upscale: false
-        }))
-    .pipe(gulp.dest('assets/images/privateworks/thumbnail/'));
-});
-
-/**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
@@ -73,7 +56,7 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch('assets/css/*.scss', ['sass']);
     gulp.watch('assets/js/*.js', ['jekyll-rebuild']);
-    gulp.watch(['index.html', '**/*.md', '_layouts/*.html', '_posts/*', 'assets/css/*.css'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', '**/*{.md,.html}'], ['jekyll-rebuild']);
 });
 
 /**
@@ -81,6 +64,3 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */ 
 gulp.task('default', ['browser-sync', 'watch']);
-gulp.task('deploy', function (callback) {
-    runSequence('jekyll-build', 'add', 'commit', 'push', callback);
-});

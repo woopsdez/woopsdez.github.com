@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: thumbnail
 title: Contribution
 background: " "
 color: dark

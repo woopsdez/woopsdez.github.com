@@ -122,16 +122,14 @@ a{
 
 	&.single{
 		z-index: 997;
-		position: relative;
+		position: absolute;
 		top: 50px;
-		right: auto;
+		right: 10%;
 		max-width: 760px;
 	}
 
 	&.thumbnail{
 		position: static;
-		top: inherit;
-		right: inherit;
 		width: 80%;
 		max-width: 80%;
 	}
