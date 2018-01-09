@@ -2,8 +2,8 @@
 layout: null
 title: "ノベル デ こけむさズ"
 banner: ss-noveldekokemusaz1.png
-release-date: 2014
-works-url: http://woopsdez.jp/kokenovel/
+release_date: 2014
+works_url: http://woopsdez.jp/kokenovel/
 category: privateworks
 excerpt_separator: <!--more-->
 ---

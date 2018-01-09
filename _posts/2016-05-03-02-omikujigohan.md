@@ -2,8 +2,8 @@
 layout: null
 title: "おみくじゴハン"
 banner: ss-omikujigohan.png
-release-date: 2009
-works-url: http://omikujigohan.woopsdez.jp/
+release_date: 2009
+works_url: http://woopsdez.jp/omikujigohan/
 category: privateworks
 excerpt_separator: <!--more-->
 ---

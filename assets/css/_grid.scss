@@ -95,12 +95,17 @@
 		padding: 10%;
 		color: black;
 		background: rgba($brand-color,.8);
+		&:hover{
+			transition:all .5s linear;
+			opacity: 1;
+		}
 		h2{color: black;}
 		p{
 			width: 100%;
 			margin: 20px auto 0	;
 			font-size: 16px;
 		}
+		a{color: white;}
 	}
 	a{
 		img{opacity: .4 !important;}
@@ -110,5 +115,5 @@
 			transition:all .5s linear;
 			opacity: 1;
 		}
-	}	
+	}
 }

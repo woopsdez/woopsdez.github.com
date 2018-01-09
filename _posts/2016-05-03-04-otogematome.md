@@ -2,8 +2,8 @@
 layout: null
 title: "オトゲマトメ"
 banner: ss-otogematome.png
-release-date: 2014
-works-url: http://woopsdez.jp/matome/otogematome/
+release_date: 2014
+works_url: null
 category: privateworks
 excerpt_separator: <!--more-->
 ---

@@ -5,13 +5,14 @@ layout: default
 <div class="grid">
 {% for post in site.categories.[page.category] %}
    <div class="inner">
-      <a href="{{ post.works-url }}" class="clearfix">
+      <div class="clearfix">
          <img src="{{base.url}}/assets/images/{{post.category}}/thumbnail/{{ post.banner }}" alt="">
          <div class="desc">
             <h2>{{ post.title }}</h2>
-            <p>{{ post.excerpt }}</p>
+            {{ post.excerpt }}
+            {% if post.works_url != blank %}<p><a href="{{ post.works_url }}">{{ post.works_url }}</a></p>{% endif %}
          </div>
-      </a>
+      </div>
    </div>
 {% endfor %}
 </div>

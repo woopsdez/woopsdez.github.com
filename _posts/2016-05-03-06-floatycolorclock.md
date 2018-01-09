@@ -2,8 +2,8 @@
 layout: null
 title: "Floaty Color Clock"
 banner: ss-floatycolorclock1.png
-release-date: 2016
-works-url: http://woopsdez.github.io/floaty-color-clock/
+release_date: 2016
+works_url: http://woopsdez.github.io/floaty-color-clock/
 category: privateworks
 excerpt_separator: <!--more-->
 ---

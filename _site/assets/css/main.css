@@ -434,12 +434,17 @@ h5, h6 {
     padding: 10%;
     color: black;
     background: rgba(233, 87, 122, 0.8); }
+    .desc:hover {
+      transition: all .5s linear;
+      opacity: 1; }
     .desc h2 {
       color: black; }
     .desc p {
       width: 100%;
       margin: 20px auto 0;
       font-size: 16px; }
+    .desc a {
+      color: white; }
   a img {
     opacity: .4 !important; }
   a:hover .desc {
