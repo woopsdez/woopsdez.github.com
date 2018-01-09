@@ -5,9 +5,28 @@
     <description>イシジマミキ 徹底解説</description>
     <link>http://mikiishijima.comhttp://mikiishijima.com/</link>
     <atom:link href="http://mikiishijima.comhttp://mikiishijima.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jan 2018 22:38:01 +0900</pubDate>
-    <lastBuildDate>Tue, 09 Jan 2018 22:38:01 +0900</lastBuildDate>
+    <pubDate>Tue, 09 Jan 2018 23:00:34 +0900</pubDate>
+    <lastBuildDate>Tue, 09 Jan 2018 23:00:34 +0900</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Wall Clock</title>
+        <description>&lt;p&gt;子どもの成長ぶりを実感するため、毎月写真をとっていたがイチイチPhotoshopで繋げるのが面倒だったので夫婦で作りました。&lt;/p&gt;
+
+&lt;p&gt;私はHTML/CSSしか書いていないので見た目に手を入れたい。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;そのうち、並べ方に種類を増やしたり、後から追加・削除ができるようにしたりしたい。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jan 2018 00:00:00 +0900</pubDate>
+        <link>http://mikiishijima.comhttp://mikiishijima.com/privateworks/2018/01/09/01-yokonaga/</link>
+        <guid isPermaLink="true">http://mikiishijima.comhttp://mikiishijima.com/privateworks/2018/01/09/01-yokonaga/</guid>
+        
+        
+        <category>privateworks</category>
+        
+      </item>
     
       <item>
         <title>ニコニコ動画 超チューニング祭り</title>
@@ -158,25 +177,6 @@
         
         
         <category>slide</category>
-        
-      </item>
-    
-      <item>
-        <title>Wall Clock</title>
-        <description>&lt;p&gt;引越したときに壁にかける時計が欲しくて作成。Floaty Color Clockよりも文字を大きくシンプルにして、遠くから見られるようにしています。&lt;/p&gt;
-
-&lt;p&gt;使ってないiPadの有効活用手段として大活躍。&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;忘れるとショックな燃えるゴミの日をおしゃれに警告するため、前日の夜は背景が赤くなったり、天気の良いお昼にはマイクラのBGMがふと流れたりします。そういう予定です。&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 May 2016 00:00:00 +0900</pubDate>
-        <link>http://mikiishijima.comhttp://mikiishijima.com/privateworks/2016/05/03/07-wallclock/</link>
-        <guid isPermaLink="true">http://mikiishijima.comhttp://mikiishijima.com/privateworks/2016/05/03/07-wallclock/</guid>
-        
-        
-        <category>privateworks</category>
         
       </item>
     
