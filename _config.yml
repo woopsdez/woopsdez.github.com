@@ -5,7 +5,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json","theme", "raw"]
 title: 						"Miki Ishijima"
 description: 			"イシジマミキ 徹底解説"
 email: 						"woops.mirai@gmail.com"
-baseurl: 					"http://mikiishijima.com"
+baseurl: 					""
 url: 					    "http://mikiishijima.com"
 banner:           "http://mikiishijima.com/assets/images/ogp-image.png"
 
