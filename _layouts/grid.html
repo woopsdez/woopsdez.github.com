@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="grid">
-{% for post in site.categories.[page.category] %}
+{% for post in site.categories[page.category] %}
    <div class="inner">
       <div class="clearfix">
          <img src="{{base.url}}/assets/images/{{post.category}}/thumbnail/{{ post.banner }}" alt="">

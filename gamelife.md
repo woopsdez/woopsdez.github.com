@@ -2,7 +2,7 @@
 layout: single
 title: "Game Life"
 background: ""
-color: light
+color: dark
 ---
 
 ## プレイスタイル

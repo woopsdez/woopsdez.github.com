@@ -298,7 +298,7 @@ header nav,
     -webkit-transform: translateY(0px); } }
 
 body {
-  background: #000;
+  background: #eee;
   color: #787878; }
 
 a {
@@ -326,6 +326,9 @@ h2 {
 h3 {
   font-size: 1.17em;
   margin: .83em 0; }
+
+h4 {
+  margin: 1em 0; }
 
 h5 {
   font-size: .83em;
@@ -361,9 +364,8 @@ h5, h6 {
   overflow: hidden;
   position: relative;
   float: left;
-  margin: -1px 0 0;
-  padding: 0;
-  background: #000; }
+  margin: -1px 0;
+  padding: 0; }
   .grid .inner a img {
     display: block;
     max-width: 100%;
@@ -433,9 +435,9 @@ h5, h6 {
     opacity: 0;
     padding: 10%;
     color: black;
-    background: rgba(233, 87, 122, 0.8); }
+    background: #e9577a; }
     .desc:hover {
-      transition: all .5s linear;
+      transition: all .2s linear;
       opacity: 1; }
     .desc h2 {
       color: black; }
@@ -445,8 +447,8 @@ h5, h6 {
       font-size: 16px; }
     .desc a {
       color: white; }
-  a img {
-    opacity: .4 !important; }
+    .desc a img {
+      opacity: .4 !important; }
   a:hover .desc {
     transition: all .5s linear;
     opacity: 1; } }
@@ -461,49 +463,13 @@ a {
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  opacity: .4;
+  opacity: .1;
   background-size: cover;
   background-repeat: no-repeat; }
   @media screen and (min-width: 1024px) {
     .bg {
       opacity: 1;
       background-position: right top; } }
-
-.around-page {
-  z-index: 998;
-  margin-bottom: 100px; }
-  .around-page.prev {
-    float: left; }
-  .around-page.next {
-    float: right; }
-  @media screen and (min-width: 1024px) {
-    .around-page {
-      position: fixed;
-      top: 45%; }
-      .around-page.prev {
-        left: 10px; }
-      .around-page.next {
-        right: 10px; } }
-  .around-page a {
-    opacity: .5;
-    color: #fff;
-    font-size: 120px;
-    font-family: Lato;
-    font-weight: 100;
-    transition: all .1s linear;
-    -webkit-transition: all .1s linear;
-    -moz-transition: all .1s linear;
-    -o-transition: all .1s linear; }
-    .around-page a:hover {
-      opacity: 1; }
-    .around-page a span {
-      display: none; }
-      @media screen and (min-width: 1024px) {
-        .around-page a span {
-          display: inline-block;
-          opacity: 0; }
-          .around-page a span:hover {
-            opacity: 1; } }
 
 .goto-top {
   position: fixed;
@@ -600,7 +566,7 @@ header .logo {
     width: 250px;
     min-height: 100%;
     padding: 0 0 0 50px;
-    background: #000;
+    background: #eee;
     float: left;
     overflow: hidden;
     z-index: 9999; }
@@ -709,7 +675,7 @@ header .logo {
 .main .work .media {
   width: 100%;
   vertical-align: middle;
-  opacity: .5; }
+  opacity: 1; }
 
 .main .work .caption {
   position: absolute;
@@ -787,8 +753,8 @@ header .logo {
     font-family: "raleway-regular", arial;
     font-size: 14px;
     text-decoration: none;
-    border-top: 1px solid #1a1a1a;
-    background: #000; }
+    border-top: 1px solid white;
+    background: #eee; }
   header nav ul li a:active {
     background: #f7f5f5; }
   #menu_icon,

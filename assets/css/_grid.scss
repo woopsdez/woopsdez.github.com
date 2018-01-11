@@ -3,9 +3,8 @@
 		overflow: hidden;
 		position: relative;
 		float: left;
-		margin: -1px 0 0;
+		margin: -1px 0;
 		padding: 0;
-		background: #000;
 		a img{
 			display: block;
 			max-width: 100%;
@@ -94,9 +93,9 @@
 		opacity: 0;
 		padding: 10%;
 		color: black;
-		background: rgba($brand-color,.8);
+		background: rgba($brand-color,1);
 		&:hover{
-			transition:all .5s linear;
+			transition:all .2s linear;
 			opacity: 1;
 		}
 		h2{color: black;}
@@ -106,9 +105,9 @@
 			font-size: 16px;
 		}
 		a{color: white;}
-	}
-	a{
-		img{opacity: .4 !important;}
+		a{
+			img{opacity: .4 !important;}
+		}
 	}
 	a:hover{
 		.desc{
