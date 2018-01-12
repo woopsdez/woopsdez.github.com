@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="gamelife">
+  <nav class="game-titles">
+      {% for post in site.categories[page.category] %}
+        <ul>
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        </ul>
+      {% endfor %}
+  </nav>
+
+  <main class="game-comments">
+    ## プレイスタイル
+
+    (S)RPG・シュミレーションをよくプレイしています。サブイベント回収や便利なアイテムをたくさん作るのが好きです。よほど気に入ったゲームでないと周回プレイしないので、1週目から攻略サイトに沿って進めていくタイプ。アクションや対戦ものは、上手くいかないとすぐに飽きてしまうため長く続きません。
+
+    子どもが生まれてからは3DS/Vitaなどの携帯機やPCゲームのプレイが多くなりました。たまにダイエットも兼ねてKinectしてます。
+
+    ### プレイゲームタイトル一覧
+
+    #### PCゲーム
+
+    * [Minecraft](https://minecraft.net/ja-jp/)
+    * [Cities:Skylines](https://www.paradoxplaza.com/cities-skylines/CSCS00GSK-MASTER.html)
+    * [Simutrans](https://www.simutrans.com/en/)
+    * [OpenRCT2](https://openrct2.org/)
+    * [Factorio](https://www.factorio.com/)
+  </main>
+</div>

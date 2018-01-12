@@ -1,0 +1,14 @@
+.gamelife{
+	// display: flex;
+  align-items: center;
+}
+
+nav.game-titles{
+	flex: 1;
+	background-color: red;
+}
+
+main.game-comments{
+	flex-grow: 1;
+	background-color: blue;
+}

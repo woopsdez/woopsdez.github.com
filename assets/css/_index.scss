@@ -3,296 +3,315 @@
 .tooltip{display: none;}
 .wrapper{margin: 0 auto;}
 
-header .logo{
-    margin-top: 80px;
-    img{width: 40px}
-    h1{
-        display: inline;
-        color: #FFF;
-        font-family: $base-font-family;
-    }
+.index{
+  background-color: #222;
 }
 
-/*  Header  */
-@media (min-width:1099px){
-    header{
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 250px;
-        min-height: 100%;
-        padding: 0 0 0 50px;
-        background: $body-bg;
-        float: left;
-        overflow: hidden;
-        z-index: 9999;
-    }
-
-    header nav ul{
-        display: block;
-        overflow: hidden;
-        margin-top: 30px;
-        list-style: none;
-    }
-
-    header nav ul li{
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    header nav ul li a{
-        font-family: "raleway-regular", arial;
-        font-size: 14px;
-        text-decoration: none;
-        letter-spacing: 1px;
-    }
-
-    header nav ul li a:hover,
-    header nav ul li a.selected{
-        color: #969595;
-    }
-
-    header .footer{
-        position: absolute;
-        bottom: 50px;
-    }
-
-    header ul.social{
-        list-style: none;
-        margin-bottom: 5px;
-    }
-
-    header ul.social li{
-        display: block;
-        float: left;
-        position: relative;
-        margin: 0 15px 15px 0;
-    }
-
-
-    header ul.social li a{
-        display: block;
-        width: 30px;
-        height: 30px;
-        background: url('../images/sm.png') no-repeat;
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a:hover{
-        background: url('../images/sm_hover.png') no-repeat;
-    }
-    header ul.social li a.fb,
-    header ul.social li a.fb:hover{
-        background-position: 0 0;
-    }
-
-
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
-        background-position: -31px 0;
-    }
-
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
-        background-position: -62px 0;
-    }
-
-    header ul.social li a.twitter,
-    header ul.social li a.twitter:hover{
-        background-position: -93px 0;
-    }
-
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
-        background-position: -124px 0;
-    }
-
-    header ul.social li a.rss,
-    header ul.social li a.rss:hover{
-        background-position: -155px 0;
-    }
-
-    header .rights p{
-        font-family: "raleway-regular", arial;
-        font-size: 11px;
-        letter-spacing: 1px;
-        line-height: 18px;
-    }
-
-    header .rights a{
-        font-family: "raleway-bold", arial;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    #menu_icon,
-    .close_menu{
-        display: none;
-    }
-
-}
-
-#menu_icon,
-.close_menu{
-    float: right;
+header{
+  display: flex;
+  div{border: 1px solid red}
+  .logo{flex-grow: 1}
+  #menu_icon,
+  .close_menu{
     margin-right: 40px;
     width: 40px;
     height: 40px;
     cursor: pointer;
     background: url('../images/men_icons.png') no-repeat;
+  }
+}
+
+.logo{
+  margin-top: 80px;
+  img{width: 40px}
+  h1{
+    display: inline;
+    color: #FFF;
+    font-family: $base-font-family;
+    position: relative;
+    top: -10px;
+  }
+}
+
+#menu_icon,
+.close_menu{
+  float: right;
+  margin-right: 40px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url('../images/men_icons.png') no-repeat;
 }
 
 #menu_icon{
-    background-position: 0 0;
+  background-position: 0 0;
 }
 .close_menu{
-    background-position: -41px 0!important;
+  background-position: -41px 0!important;
+}
+
+/*  Header  */
+@media (min-width:1099px){
+  header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    min-height: 100%;
+    padding: 0 0 0 50px;
+    background: $body-bg;
+    float: left;
+    overflow: hidden;
+    z-index: 9999;
+
+    nav{
+      ul{
+        display: block;
+        overflow: hidden;
+        margin-top: 30px;
+        list-style: none;
+        li{
+          display: block;
+          margin-bottom: 10px;
+          a{
+            font-family: "raleway-regular", arial;
+            font-size: 14px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            &:hover, &.selected{
+              color: #969595;
+            }
+          }
+        }
+      }
+    } // nav
+
+    .footer{
+      position: absolute;
+      bottom: 50px;
+    }
+
+    ul.social{
+      list-style: none;
+      margin-bottom: 5px;
+      li{
+        display: block;
+        float: left;
+        position: relative;
+        margin: 0 15px 15px 0;
+        a{
+          display: block;
+          width: 30px;
+          height: 30px;
+          background: url('../images/sm.png') no-repeat;
+          background-position: 0 0;
+          &:hover{
+            background: url('../images/sm_hover.png') no-repeat;
+          }
+
+          &.fb,
+          &.fb:hover{
+            background-position: 0 0;
+          }
+
+          &.google,
+          &.google:hover{
+            background-position: -31px 0;
+          }
+
+          &.behance,
+          &.behance:hover{
+            background-position: -62px 0;
+          }
+
+          &.twitter,
+          &.tiwtter:hover{
+            background-position: -93px 0;
+          }
+
+          &.dribble,
+          &.dribble:hover{
+            background-position: -124px 0;
+          }
+
+          &.rss,
+          &.rss:hover{
+            background-position: -155px 0;
+          }
+        }
+      }
+    } // .social
+
+    .rights{
+      p{
+        font-family: "raleway-regular", arial;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 18px;
+      }
+
+      a{
+        font-family: "raleway-bold", arial;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  #menu_icon,
+  .close_menu{
+    display: none;
+  }
 }
 
 /*  Main  */
 .main{
-    width: 100%;
-    height: 100%;
-    padding-left: 300px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 55;
-    clear: both;
+  width: 100%;
+  height: 100%;
+  padding-left: 300px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 55;
+  clear: both;
 }
 
 /*  Home/portfolio  */
 .main .work{
-    display: block;
-    width: 33.33333333333333%;
-    height: auto;
-    float: left;
-    position: relative;
-    overflow: hidden;
+  display: block;
+  width: 33.33333333333333%;
+  height: auto;
+  float: left;
+  position: relative;
+  overflow: hidden;
 }
 
 .main .work .media{
-    width: 100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
+  opacity: .2;
+  @media (min-width:768px){
     opacity: 1;
+  }
 }
 
 .main .work .caption{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    @media (min-width:768px){
-        opacity: 0;
-        background: rgba($brand-color,.8);
-    }
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  @media (min-width:768px){
+    opacity: 0;
+    background: rgba($brand-color,.8);
+  }
 }
 
 .main .work a:hover .caption{
-    opacity: 1;
+  opacity: 1;
 }
 
 .work .caption .work_title{
-    display: block;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    margin-top: -40px;
+  display: block;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  margin-top: -40px;
 }
 
 .main .work .caption h1{
-    position: relative;
-    display: inline-block;
-    max-width: 90%;
-    padding: 20px 0;
-    z-index: 77;
-    color: #fff;
-    font-family: "raleway-regular", arial;
-    font-size: 22px;
-    letter-spacing: .5px;
-    border-bottom: 1px solid lighten(#FFF,20%);
-    border-top: 1px solid lighten(#FFF,20%);
-    @media (min-width:768px){
-        border-bottom: 1px solid lighten($brand-color,20%);
-        border-top: 1px solid lighten($brand-color,20%);
-    }
+  position: relative;
+  display: inline-block;
+  max-width: 90%;
+  padding: 20px 0;
+  z-index: 77;
+  color: #fff;
+  font-family: "raleway-regular", arial;
+  font-size: 22px;
+  letter-spacing: .5px;
+  border-bottom: 1px solid lighten(#FFF,20%);
+  border-top: 1px solid lighten(#FFF,20%);
+  @media (min-width:768px){
+    border-bottom: 1px solid lighten($brand-color,20%);
+    border-top: 1px solid lighten($brand-color,20%);
+  }
 }
 
 /*  Responsive code  */
 @media (max-width:1099px){
-    header{
-        display: block;
-        width: 100%;
-        min-height: 100px;
-        padding: 0;
-        position: relative;
-    }
-    header .logo{
-        margin: 40px 0 0 30px;
-        float: left;
-    }
-    header .footer{
-        display: none;
-    }
-    header #menu_icon,
-    header .close_menu{
-        float: right;
-        margin: 30px 30px 0 0;
-    }
+  header{
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    padding: 0;
+    position: relative;
+  }
+  header .logo{
+    margin: 40px 0 0 30px;
+    float: left;
+  }
+  header .footer{
+    display: none;
+  }
+  header #menu_icon,
+  header .close_menu{
+    float: right;
+    margin: 30px 30px 0 0;
+  }
 
-    header nav{
-        width: 100%;
-        position: absolute;
-        top: 100px;
-        left: 0;
-        z-index: 9999;
-    }
+  header nav{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+  }
 
-    header nav ul{
-        list-style: none;
-        display: none;
-        position: relative;
-    }
-    header nav ul li a{
-        display: block;
-        width: 100%;
-        padding: 30px 0;
-        text-align: center;
-        font-family: "raleway-regular", arial;
-        font-size: 14px;
-        text-decoration: none;
-        border-top: 1px solid lighten($body-bg,10%);
-        background: $body-bg;
-    }
-    header nav ul li a:active{
-        background: #f7f5f5;
-    }
-    #menu_icon,
-    .close_menu,
-    .show_menu{
-        display: block;
-    }
-    .show_menu{
-        display: block;
-    }
-    .main .work{
-        width: 50%;
-    }
-    .main{
-        width: 100%;
-        position: relative;
-        padding-left: 0;
-    }
+  header nav ul{
+    list-style: none;
+    display: none;
+    position: relative;
+  }
+  header nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    text-decoration: none;
+    border-top: 1px solid lighten($body-bg,10%);
+    background: $body-bg;
+  }
+  header nav ul li a:active{
+    background: #f7f5f5;
+  }
+  #menu_icon,
+  .close_menu,
+  .show_menu{
+    display: block;
+  }
+  .show_menu{
+    display: block;
+  }
+  .main .work{
+    width: 50%;
+  }
+  .main{
+    width: 100%;
+    position: relative;
+    padding-left: 0;
+  }
 }
 
 @media (max-width:550px){
-     .main .work{
-        width: 100%;
-    }
+  .main .work{
+    width: 100%;
+  }
 }
