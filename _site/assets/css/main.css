@@ -299,7 +299,7 @@ header nav,
 
 body {
   background: #eee;
-  color: #787878; }
+  color: #222; }
 
 a {
   color: #e9577a;
@@ -311,7 +311,6 @@ a {
     opacity: .8; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4b4848;
   font-family: "raleway-regular", arial;
   letter-spacing: 1px; }
 
@@ -396,8 +395,6 @@ h5, h6 {
 @media (min-width: 400px) and (max-width: 768px) {
   .inner .desc {
     padding: 10px 10px 30px; }
-    .inner .desc h2, .inner .desc p {
-      color: #FFF; }
     .inner .desc h2:before {
       content: "\f0d8";
       margin-right: 10px;
@@ -497,10 +494,20 @@ a {
       top: 30px;
       right: 30px; } }
 
+nav.list {
+  padding: 30px;
+  font-size: 1.2em;
+  line-height: 1.4; }
+  @media screen and (min-width: 1024px) {
+    nav.list {
+      position: fixed;
+      top: 120px;
+      left: 100px; } }
+
 .content {
   margin: 0 auto 60px;
   padding: 30px;
-  color: #c5c5c5;
+  color: #222;
   font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   font-size: 20px;
   line-height: 1.5;
@@ -513,18 +520,13 @@ a {
       border: none; }
       .content.dark {
         color: #424242; }
-        .content.dark h1, .content.dark h2, .content.dark h3, .content.dark h4, .content.dark h5, .content.dark h6 {
-          color: #2c2c2c; }
         .content.dark h1 {
           text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); }
       .content.light {
         color: #e8e8e8; }
-        .content.light h1, .content.light h2, .content.light h3, .content.light h4, .content.light h5, .content.light h6 {
-          color: white; }
         .content.light h1 {
           text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8); } }
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-    color: #c5c5c5;
     font-family: Domine; }
   .content h1 {
     font-size: 60px;
@@ -555,17 +557,6 @@ a {
     width: 80%;
     max-width: 80%; }
 
-.gamelife {
-  align-items: center; }
-
-nav.game-titles {
-  flex: 1;
-  background-color: red; }
-
-main.game-comments {
-  flex-grow: 1;
-  background-color: blue; }
-
 .tooltip {
   display: none; }
 
@@ -573,227 +564,216 @@ main.game-comments {
   margin: 0 auto; }
 
 .index {
-  background-color: #222; }
-
-header {
-  display: flex; }
-  header .logo {
-    margin-top: 80px; }
-    header .logo img {
-      width: 40px; }
-    header .logo h1 {
-      display: inline;
-      color: #FFF;
-      font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
-      position: relative;
-      top: -10px; }
-  header #menu_icon,
-  header .close_menu {
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    background: url("../images/men_icons.png") no-repeat; }
-  header #menu_icon {
-    background-position: 0 0; }
-  header .close_menu {
-    background-position: -41px 0 !important; }
-
-/*  Header  */
-@media (min-width: 1099px) {
-  header {
+  background-color: #222;
+  /*  Header  */
+  /*  Main  */
+  /*  Home/portfolio  */
+  /*  Responsive code  */ }
+  .index header {
+    display: flex; }
+    .index header .logo {
+      margin-top: 80px; }
+      .index header .logo img {
+        width: 40px; }
+      .index header .logo h1 {
+        display: inline;
+        color: #FFF;
+        font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+        position: relative;
+        top: -10px; }
+    .index header #menu_icon,
+    .index header .close_menu {
+      margin-right: 10px;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      background: url("../images/men_icons.png") no-repeat; }
+    .index header #menu_icon {
+      background-position: 0 0; }
+    .index header .close_menu {
+      background-position: -41px 0 !important; }
+  @media (min-width: 1099px) {
+    .index header {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      min-height: 100%;
+      padding: 0 0 0 50px;
+      background: #eee;
+      float: left;
+      overflow: hidden;
+      z-index: 9999; }
+      .index header nav ul {
+        display: block;
+        overflow: hidden;
+        margin-top: 30px;
+        list-style: none; }
+        .index header nav ul li {
+          display: block;
+          margin-bottom: 10px; }
+          .index header nav ul li a {
+            font-family: "raleway-regular", arial;
+            font-size: 14px;
+            text-decoration: none;
+            letter-spacing: 1px; }
+            .index header nav ul li a:hover, .index header nav ul li a.selected {
+              color: #969595; }
+      .index header .footer {
+        position: absolute;
+        bottom: 50px; }
+      .index header ul.social {
+        list-style: none;
+        margin-bottom: 5px; }
+        .index header ul.social li {
+          display: block;
+          float: left;
+          position: relative;
+          margin: 0 15px 15px 0; }
+          .index header ul.social li a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: url("../images/sm.png") no-repeat;
+            background-position: 0 0; }
+            .index header ul.social li a:hover {
+              background: url("../images/sm_hover.png") no-repeat; }
+            .index header ul.social li a.fb, .index header ul.social li a.fb:hover {
+              background-position: 0 0; }
+            .index header ul.social li a.google, .index header ul.social li a.google:hover {
+              background-position: -31px 0; }
+            .index header ul.social li a.behance, .index header ul.social li a.behance:hover {
+              background-position: -62px 0; }
+            .index header ul.social li a.twitter, .index header ul.social li a.tiwtter:hover {
+              background-position: -93px 0; }
+            .index header ul.social li a.dribble, .index header ul.social li a.dribble:hover {
+              background-position: -124px 0; }
+            .index header ul.social li a.rss, .index header ul.social li a.rss:hover {
+              background-position: -155px 0; }
+      .index header .rights p {
+        font-family: "raleway-regular", arial;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 18px; }
+      .index header .rights a {
+        font-family: "raleway-bold", arial;
+        font-weight: bold;
+        text-decoration: none; }
+    .index #menu_icon,
+    .index .close_menu {
+      display: none; } }
+  .index .main {
+    width: 100%;
+    height: 100%;
+    padding-left: 300px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 55;
+    clear: both; }
+  .index .main .work {
     display: block;
-    position: fixed;
+    width: 33.33333333333333%;
+    height: auto;
+    float: left;
+    position: relative;
+    overflow: hidden; }
+  .index .main .work .media {
+    width: 100%;
+    vertical-align: middle;
+    opacity: .2; }
+    @media (min-width: 768px) {
+      .index .main .work .media {
+        opacity: 1; } }
+  .index .main .work .caption {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    width: 250px;
-    min-height: 100%;
-    padding: 0 0 0 50px;
-    background: #eee;
-    float: left;
-    overflow: hidden;
-    z-index: 9999; }
-    header nav ul {
+    opacity: 1; }
+    @media (min-width: 768px) {
+      .index .main .work .caption {
+        opacity: 0;
+        background: rgba(233, 87, 122, 0.8); } }
+  .index .main .work a:hover .caption {
+    opacity: 1; }
+  .index .work .caption .work_title {
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -40px; }
+  .index .main .work .caption h1 {
+    position: relative;
+    display: inline-block;
+    max-width: 90%;
+    padding: 20px 0;
+    z-index: 77;
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 22px;
+    letter-spacing: .5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white; }
+    @media (min-width: 768px) {
+      .index .main .work .caption h1 {
+        border-bottom: 1px solid #f5b1c1;
+        border-top: 1px solid #f5b1c1; } }
+  @media (max-width: 1099px) {
+    .index header {
       display: block;
-      overflow: hidden;
-      margin-top: 30px;
-      list-style: none; }
-      header nav ul li {
-        display: block;
-        margin-bottom: 10px; }
-        header nav ul li a {
+      width: 100%;
+      min-height: 100px;
+      padding: 0;
+      position: relative; }
+      .index header .logo {
+        display: inline-block;
+        margin: 40px 0 20px 10px;
+        max-width: 55%; }
+      .index header .footer {
+        display: none; }
+      .index header #menu_icon,
+      .index header .close_menu {
+        float: right;
+        margin: 40px 10px 0 0; }
+    .index nav {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      z-index: 9999; }
+      .index nav ul {
+        list-style: none;
+        display: none;
+        position: relative; }
+        .index nav ul li a {
+          display: block;
+          width: 100%;
+          padding: 30px 0;
+          text-align: center;
           font-family: "raleway-regular", arial;
           font-size: 14px;
           text-decoration: none;
-          letter-spacing: 1px; }
-          header nav ul li a:hover, header nav ul li a.selected {
-            color: #969595; }
-    header .footer {
-      position: absolute;
-      bottom: 50px; }
-    header ul.social {
-      list-style: none;
-      margin-bottom: 5px; }
-      header ul.social li {
-        display: block;
-        float: left;
-        position: relative;
-        margin: 0 15px 15px 0; }
-        header ul.social li a {
-          display: block;
-          width: 30px;
-          height: 30px;
-          background: url("../images/sm.png") no-repeat;
-          background-position: 0 0; }
-          header ul.social li a:hover {
-            background: url("../images/sm_hover.png") no-repeat; }
-          header ul.social li a.fb, header ul.social li a.fb:hover {
-            background-position: 0 0; }
-          header ul.social li a.google, header ul.social li a.google:hover {
-            background-position: -31px 0; }
-          header ul.social li a.behance, header ul.social li a.behance:hover {
-            background-position: -62px 0; }
-          header ul.social li a.twitter, header ul.social li a.tiwtter:hover {
-            background-position: -93px 0; }
-          header ul.social li a.dribble, header ul.social li a.dribble:hover {
-            background-position: -124px 0; }
-          header ul.social li a.rss, header ul.social li a.rss:hover {
-            background-position: -155px 0; }
-    header .rights p {
-      font-family: "raleway-regular", arial;
-      font-size: 11px;
-      letter-spacing: 1px;
-      line-height: 18px; }
-    header .rights a {
-      font-family: "raleway-bold", arial;
-      font-weight: bold;
-      text-decoration: none; }
-  #menu_icon,
-  .close_menu {
-    display: none; } }
-
-/*  Main  */
-.main {
-  width: 100%;
-  height: 100%;
-  padding-left: 300px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 55;
-  clear: both; }
-
-/*  Home/portfolio  */
-.main .work {
-  display: block;
-  width: 33.33333333333333%;
-  height: auto;
-  float: left;
-  position: relative;
-  overflow: hidden; }
-
-.main .work .media {
-  width: 100%;
-  vertical-align: middle;
-  opacity: .2; }
-  @media (min-width: 768px) {
-    .main .work .media {
-      opacity: 1; } }
-
-.main .work .caption {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 1; }
-  @media (min-width: 768px) {
-    .main .work .caption {
-      opacity: 0;
-      background: rgba(233, 87, 122, 0.8); } }
-
-.main .work a:hover .caption {
-  opacity: 1; }
-
-.work .caption .work_title {
-  display: block;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  margin-top: -40px; }
-
-.main .work .caption h1 {
-  position: relative;
-  display: inline-block;
-  max-width: 90%;
-  padding: 20px 0;
-  z-index: 77;
-  color: #fff;
-  font-family: "raleway-regular", arial;
-  font-size: 22px;
-  letter-spacing: .5px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white; }
-  @media (min-width: 768px) {
-    .main .work .caption h1 {
-      border-bottom: 1px solid #f5b1c1;
-      border-top: 1px solid #f5b1c1; } }
-
-/*  Responsive code  */
-@media (max-width: 1099px) {
-  header {
-    display: block;
-    width: 100%;
-    min-height: 100px;
-    padding: 0;
-    position: relative; }
-    header .logo {
-      display: inline-block;
-      margin: 40px 0 20px 10px;
-      max-width: 55%; }
-    header .footer {
-      display: none; }
-    header #menu_icon,
-    header .close_menu {
-      float: right;
-      margin: 40px 10px 0 0; }
-  nav {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    z-index: 9999; }
-    nav ul {
-      list-style: none;
-      display: none;
-      position: relative; }
-      nav ul li a {
-        display: block;
-        width: 100%;
-        padding: 30px 0;
-        text-align: center;
-        font-family: "raleway-regular", arial;
-        font-size: 14px;
-        text-decoration: none;
-        border-top: 1px solid white;
-        background: #eee; }
-        nav ul li a:active {
-          background: #f7f5f5; }
-  #menu_icon,
-  .close_menu,
-  .show_menu {
-    display: block; }
-  .show_menu {
-    display: block; }
-  .main .work {
-    width: 50%; }
-  .main {
-    width: 100%;
-    position: relative;
-    padding-left: 0; } }
-
-@media (max-width: 550px) {
-  .main .work {
-    width: 100%; } }
+          border-top: 1px solid white;
+          background: #eee; }
+          .index nav ul li a:active {
+            background: #f7f5f5; }
+    .index #menu_icon,
+    .index .close_menu,
+    .index .show_menu {
+      display: block; }
+    .index .show_menu {
+      display: block; }
+    .index .main .work {
+      width: 50%; }
+    .index .main {
+      width: 100%;
+      position: relative;
+      padding-left: 0; } }
+  @media (max-width: 550px) {
+    .index .main .work {
+      width: 100%; } }

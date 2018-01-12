@@ -32,10 +32,21 @@ a{
 	}
 }
 
+nav.list{
+	padding: 30px;
+	font-size: 1.2em;
+	line-height: 1.4;
+	@media screen and (min-width: 1024px) {
+		position: fixed;
+    top: 120px;
+    left: 100px;
+	}
+}
+
 .content{
 	margin: 0 auto 60px;
 	padding: 30px;
-	color: lighten($text-color,30%);
+	color: $text-color;
 	font-family: $base-font-family;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
@@ -49,19 +60,16 @@ a{
 
 		&.dark{
 			color: $grey-color-dark;
-			h1,h2,h3,h4,h5,h6{color: darken($text-color,30%);}
 			h1{text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);}
 		}
 
 		&.light{
 			color: $grey-color-light;
-			h1,h2,h3,h4,h5,h6{color: lighten($text-color,80%);}
 			h1{text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);}
 		}
 	}
 
 	h1,h2,h3,h4,h5,h6{
-		color: lighten($text-color,30%);
 		font-family: $heading-font-family;
 	}
 	h1{
