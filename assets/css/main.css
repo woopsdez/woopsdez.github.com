@@ -577,43 +577,27 @@ main.game-comments {
 
 header {
   display: flex; }
-  header div {
-    border: 1px solid red; }
   header .logo {
-    flex-grow: 1; }
+    margin-top: 80px; }
+    header .logo img {
+      width: 40px; }
+    header .logo h1 {
+      display: inline;
+      color: #FFF;
+      font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+      position: relative;
+      top: -10px; }
   header #menu_icon,
   header .close_menu {
-    margin-right: 40px;
+    margin-right: 10px;
     width: 40px;
     height: 40px;
     cursor: pointer;
     background: url("../images/men_icons.png") no-repeat; }
-
-.logo {
-  margin-top: 80px; }
-  .logo img {
-    width: 40px; }
-  .logo h1 {
-    display: inline;
-    color: #FFF;
-    font-family: "Open Sans", Lato, 游ゴシック体, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
-    position: relative;
-    top: -10px; }
-
-#menu_icon,
-.close_menu {
-  float: right;
-  margin-right: 40px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  background: url("../images/men_icons.png") no-repeat; }
-
-#menu_icon {
-  background-position: 0 0; }
-
-.close_menu {
-  background-position: -41px 0 !important; }
+  header #menu_icon {
+    background-position: 0 0; }
+  header .close_menu {
+    background-position: -41px 0 !important; }
 
 /*  Header  */
 @media (min-width: 1099px) {
@@ -767,14 +751,15 @@ header {
     padding: 0;
     position: relative; }
   header .logo {
-    margin: 40px 0 0 30px;
-    float: left; }
+    display: inline-block;
+    margin: 40px 0 20px 10px;
+    max-width: 55%; }
   header .footer {
     display: none; }
   header #menu_icon,
   header .close_menu {
     float: right;
-    margin: 30px 30px 0 0; }
+    margin: 40px 10px 0 0; }
   header nav {
     width: 100%;
     position: absolute;

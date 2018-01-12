@@ -9,45 +9,31 @@
 
 header{
   display: flex;
-  div{border: 1px solid red}
-  .logo{flex-grow: 1}
+  .logo{
+    margin-top: 80px;
+    img{width: 40px}
+    h1{
+      display: inline;
+      color: #FFF;
+      font-family: $base-font-family;
+      position: relative;
+      top: -10px;
+    }
+  }
   #menu_icon,
   .close_menu{
-    margin-right: 40px;
+    margin-right: 10px;
     width: 40px;
     height: 40px;
     cursor: pointer;
     background: url('../images/men_icons.png') no-repeat;
   }
-}
-
-.logo{
-  margin-top: 80px;
-  img{width: 40px}
-  h1{
-    display: inline;
-    color: #FFF;
-    font-family: $base-font-family;
-    position: relative;
-    top: -10px;
+  #menu_icon{
+    background-position: 0 0;
   }
-}
-
-#menu_icon,
-.close_menu{
-  float: right;
-  margin-right: 40px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  background: url('../images/men_icons.png') no-repeat;
-}
-
-#menu_icon{
-  background-position: 0 0;
-}
-.close_menu{
-  background-position: -41px 0!important;
+  .close_menu{
+    background-position: -41px 0!important;
+  }
 }
 
 /*  Header  */
@@ -253,8 +239,9 @@ header{
     position: relative;
   }
   header .logo{
-    margin: 40px 0 0 30px;
-    float: left;
+    display: inline-block;
+    margin: 40px 0 20px 10px;
+    max-width: 55%;
   }
   header .footer{
     display: none;
@@ -262,7 +249,7 @@ header{
   header #menu_icon,
   header .close_menu{
     float: right;
-    margin: 30px 30px 0 0;
+    margin: 40px 10px 0 0;
   }
 
   header nav{
