@@ -1,23 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1725px" height="1086px" viewBox="0 0 1725 1086" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>bg-presskit</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="bg-presskit">
-            <rect id="rect4173" fill="#E74C3C" x="7.10542736e-15" y="1.90070182e-13" width="1724.2858" height="1085.7142"></rect>
-            <g id="icon" transform="translate(88.000000, 88.000000)">
-                <path d="M5.80428154,632.47699 L581.065411,1109.06686 L1270.61311,1109.06686 L1432.05639,1109.06687 L375.100755,0 L5.80428154,632.47699 Z" id="shadow" fill="#000000" opacity="0.1"></path>
-                <g id="note">
-                    <path d="M0,22.0251755 C0,12.6400597 7.60279604,5.03192008 16.9958554,5.03192008 C16.9958554,5.03192008 389.348002,5.03192008 389.348002,5.03192008 C389.348002,5.03192008 535.946445,152.607852 535.946445,152.607852 L535.946445,624.885038 C535.946445,634.274974 528.344457,641.887021 518.946705,641.887021 L16.9997405,641.887021 C7.61104309,641.887021 0,634.277109 0,624.893765 L0,22.0251755 Z" id="Rectangle-2" fill="#FFFFFF"></path>
-                    <path d="M89.8938403,0.456856275 L89.8938403,227.673161 L131.16539,188.395968 L169.75215,226.94024 L169.75215,1.1836663 L89.8938403,0.456856275 Z" id="Path-2" fill="#F8CF1C"></path>
-                    <path d="M108.583945,303.557749 L426.372549,303.557749" id="Line" stroke="#2B2B2B" stroke-width="20" stroke-linecap="square"></path>
-                    <path d="M108.583945,405.05653 L426.372549,405.05653" id="Line-Copy" stroke="#2B2B2B" stroke-width="20" stroke-linecap="square"></path>
-                    <path d="M108.583945,506.555312 L426.372549,506.555312" id="Line-Copy-2" stroke="#2B2B2B" stroke-width="20" stroke-linecap="square"></path>
-                    <path d="M386.912023,3.04174789 L536.28808,152.253328 L387.63851,152.253328 L386.912023,3.04174789 Z" id="Path-6" fill="#D8D8D8"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1725 1086" style="enable-background:new 0 0 1725 1086;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F9CFAC;}
+	.st1{opacity:0.1;enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#F8CF1C;}
+	.st4{fill:none;stroke:#2B2B2B;stroke-width:20;stroke-linecap:square;}
+	.st5{fill:#D8D8D8;}
+</style>
+<title>bg-presskit</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="bg-presskit">
+		<rect id="rect4173" y="0" class="st0" width="1724.3" height="1085.7"/>
+		<g id="icon" transform="translate(88.000000, 88.000000)">
+			<path id="shadow" class="st1" d="M5.8,632.5l575.3,476.6h689.5h161.4L375.1,0L5.8,632.5z"/>
+			<g id="note">
+				<path id="Rectangle-2" class="st2" d="M0,22C0,12.6,7.6,5,17,5h372.4l146.6,147.6v472.3c0,9.4-7.6,17-17,17H17
+					c-9.4,0-17-7.6-17-17V22z"/>
+				<path id="Path-2" class="st3" d="M89.9,0.5v227.2l41.3-39.3l38.6,38.5V1.2L89.9,0.5z"/>
+				<path id="Line" class="st4" d="M108.6,303.6h317.8"/>
+				<path id="Line-Copy" class="st4" d="M108.6,405.1h317.8"/>
+				<path id="Line-Copy-2" class="st4" d="M108.6,506.6h317.8"/>
+				<path id="Path-6" class="st5" d="M386.9,3l149.4,149.2H387.6L386.9,3z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
