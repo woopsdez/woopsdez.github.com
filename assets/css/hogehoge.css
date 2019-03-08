@@ -1,0 +1,31 @@
+.box {
+  width: auto;
+  margin: auto 20%;
+  color: #585858;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  line-height: 1.6;
+  background-color: #fff; }
+  .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-feature-settings: "palt"; }
+  .box h1 {
+    font-size: 2.4rem; }
+  .box h2 {
+    font-size: 2rem; }
+  .box h3 {
+    font-size: 1.8rem; }
+  .box h4 {
+    font-size: 1.6rem; }
+  .box h5 {
+    font-size: 1.4rem; }
+  .box h6 {
+    font-size: 1.2rem; }
+  .box img {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #efefef; }
+  .box b {
+    color: #af1515; }
