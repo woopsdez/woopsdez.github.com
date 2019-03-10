@@ -1,27 +1,93 @@
+$text-color: #555;
+
+html{
+  font-size: 18px;
+  font-family: "Helvetica Neue", "Segoe UI", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, メイリオ, Meiryo, sans-serif;
+}
+
 .box{
-  width: auto;
-  margin: auto 20%;
-  color: #585858;
+  @media screen and (min-width : 34rem){
+    width: 48rem;
+  }
+  margin: 30px auto;
+  color: $text-color;
   font-size: 1rem;
-  font-family: sans-serif;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.6rem;
   background-color: #fff;
   h1,h2,h3,h4,h5,h6{
+    color: darken($text-color, 20%);
     margin-top: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     font-feature-settings : "palt";
+    line-height: 2.3rem;
   }
-  h1{font-size: 2.4rem;}
-  h2{font-size: 2rem;}
-  h3{font-size: 1.8rem;}
-  h4{font-size: 1.6rem;}
-  h5{font-size: 1.4rem;}
-  h6{font-size: 1.2rem;}
+  h1{font-size: 2rem;}
+  h2{font-size: 1.3rem;}
+  h3{font-size: 1.3rem;}
+  h4{font-size: 1.2rem;}
+  h5{font-size: 1.1rem;}
+  h6{font-size: 1rem;}
   img{
     width: 100%;
     margin: 0 auto;
     border: 1px solid #efefef;
   }
   b{color: rgb(175, 21, 21);}
+  ul,ol{
+    list-style-position: inside;
+    padding-left: 0;
+    ul,ol{
+      padding-left: 1rem;
+    }
+  }
+}
+
+.status{
+  margin-bottom: 16px;
+  padding: 16px 16px 6px;
+  color: lighten($text-color,60%);
+  font-size: .8rem;
+  line-height: 1.2rem;
+  background: darken($text-color, 12%);
+}
+
+.list-heading{
+  padding: 16px;
+  color: #787c7b;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  background: #f7f9f9;
+  a{
+    color: inherit;
+    &:hover{
+      color: $text-color;
+    }
+  }
+  h2{
+    color: inherit;
+    margin: 0;
+    font-size: 1rem;
+    &:before{
+      content: "▼ ";
+      font-size: .8rem;
+    }
+  }
+  ul,ol{
+    margin-bottom: 0;
+    list-style-type: none;
+    li{
+      padding: 8px 0;
+      border-top: 1px solid #e6e6e6;
+      &:first-child{border-top: none;}
+    }
+    ul,ol{
+      margin-bottom: .5rem;
+      list-style-type: decimal;
+      li{
+        border-top: none;
+        line-height: .6rem;
+      }
+    }
+  }
 }

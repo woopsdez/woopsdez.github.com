@@ -8,6 +8,44 @@ category: gamelife
 
 WIP
 
+## シリーズ踏破
+
+### ファイアーエムブレム
+* 暗黒竜と光の剣・紋章の謎
+* 聖戦の系譜
+* トラキア776
+* 封印の剣
+* 烈火の剣
+* 聖魔の光石
+* 蒼炎の軌跡
+* 新・暗黒竜と光の剣
+* 新・紋章の謎
+* 覚醒
+* if
+* ヒーローズ
+
+### 逆転裁判
+* 逆転裁判1
+* 逆転裁判2
+* 逆転裁判3
+* 逆転裁判4
+* 逆転裁判5
+* 逆転裁判6
+* 逆転検事1
+* 逆転検事2
+* 大逆転裁判1
+* 大逆転裁判2
+
+### PCゲーム
+* [Minecraft](https://minecraft.net/ja-jp/)
+* [Cities:Skylines](https://www.paradoxplaza.com/cities-skylines/CSCS00GSK-MASTER.html)
+* [Simutrans](https://www.simutrans.com/en/)
+* [OpenRCT2](https://openrct2.org/)
+* [Factorio](https://www.factorio.com/)
+* [return of the obra dinn](https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/?l=japanese)
+
+---
+
 ### SFC
 #### 1990年
 * 11月21日 スーパーマリオワールド（任天堂、4M）
@@ -109,33 +147,6 @@ WIP
 
 ## 未整理
 
-### ファイアーエムブレム
-* 暗黒竜と光の剣・紋章の謎
-* 聖戦の系譜
-* トラキア776
-* 封印の剣
-* 烈火の剣
-* 聖魔の光石
-* 蒼炎の軌跡
-* 新・暗黒竜と光の剣
-* 新・紋章の謎
-* 覚醒
-* if
-* ヒーローズ
-
-### 逆転裁判
-* 逆転裁判1
-* 逆転裁判2
-* 逆転裁判3
-* 逆転裁判4
-
 ### 3DS
 * 妖怪ウォッチ
 * 牧場物語
-
-### PCゲーム
-* [Minecraft](https://minecraft.net/ja-jp/)
-* [Cities:Skylines](https://www.paradoxplaza.com/cities-skylines/CSCS00GSK-MASTER.html)
-* [Simutrans](https://www.simutrans.com/en/)
-* [OpenRCT2](https://openrct2.org/)
-* [Factorio](https://www.factorio.com/)

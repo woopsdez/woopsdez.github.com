@@ -1,31 +1,84 @@
+@charset "UTF-8";
+html {
+  font-size: 18px;
+  font-family: "Helvetica Neue", "Segoe UI", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, メイリオ, Meiryo, sans-serif; }
+
 .box {
-  width: auto;
-  margin: auto 20%;
-  color: #585858;
+  margin: 30px auto;
+  color: #555;
   font-size: 1rem;
-  font-family: sans-serif;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.6rem;
   background-color: #fff; }
+  @media screen and (min-width: 34rem) {
+    .box {
+      width: 48rem; } }
   .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
+    color: #222222;
     margin-top: 2rem;
-    font-weight: bold;
-    font-feature-settings: "palt"; }
+    font-weight: 700;
+    font-feature-settings: "palt";
+    line-height: 2.3rem; }
   .box h1 {
-    font-size: 2.4rem; }
-  .box h2 {
     font-size: 2rem; }
+  .box h2 {
+    font-size: 1.3rem; }
   .box h3 {
-    font-size: 1.8rem; }
+    font-size: 1.3rem; }
   .box h4 {
-    font-size: 1.6rem; }
-  .box h5 {
-    font-size: 1.4rem; }
-  .box h6 {
     font-size: 1.2rem; }
+  .box h5 {
+    font-size: 1.1rem; }
+  .box h6 {
+    font-size: 1rem; }
   .box img {
     width: 100%;
     margin: 0 auto;
     border: 1px solid #efefef; }
   .box b {
     color: #af1515; }
+  .box ul, .box ol {
+    list-style-position: inside;
+    padding-left: 0; }
+    .box ul ul, .box ul ol, .box ol ul, .box ol ol {
+      padding-left: 1rem; }
+
+.status {
+  margin-bottom: 16px;
+  padding: 16px 16px 6px;
+  color: #eeeeee;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  background: #363636; }
+
+.list-heading {
+  padding: 16px;
+  color: #787c7b;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  background: #f7f9f9; }
+  .list-heading a {
+    color: inherit; }
+    .list-heading a:hover {
+      color: #555; }
+  .list-heading h2 {
+    color: inherit;
+    margin: 0;
+    font-size: 1rem; }
+    .list-heading h2:before {
+      content: "▼ ";
+      font-size: .8rem; }
+  .list-heading ul, .list-heading ol {
+    margin-bottom: 0;
+    list-style-type: none; }
+    .list-heading ul li, .list-heading ol li {
+      padding: 8px 0;
+      border-top: 1px solid #e6e6e6; }
+      .list-heading ul li:first-child, .list-heading ol li:first-child {
+        border-top: none; }
+    .list-heading ul ul, .list-heading ul ol, .list-heading ol ul, .list-heading ol ol {
+      margin-bottom: .5rem;
+      list-style-type: decimal; }
+      .list-heading ul ul li, .list-heading ul ol li, .list-heading ol ul li, .list-heading ol ol li {
+        border-top: none;
+        line-height: .6rem; }
