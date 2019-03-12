@@ -10,9 +10,9 @@ html {
   font-weight: normal;
   line-height: 1.6rem;
   background-color: #fff; }
-  @media screen and (min-width: 34rem) {
+  @media screen and (min-width: 641px) {
     .box {
-      width: 48rem; } }
+      width: 60%; } }
   .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
     color: #222222;
     margin-top: 2rem;
@@ -22,7 +22,8 @@ html {
   .box h1 {
     font-size: 2rem; }
   .box h2 {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin-top: 6rem; }
   .box h3 {
     font-size: 1.4rem; }
   .box h4 {
