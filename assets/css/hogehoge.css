@@ -10,9 +10,6 @@ html {
   font-weight: normal;
   line-height: 1.6rem;
   background-color: #fff; }
-  @media screen and (min-width: 641px) {
-    .box {
-      width: 60%; } }
   .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
     color: #222222;
     margin-top: 2rem;
