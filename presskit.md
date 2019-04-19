@@ -10,10 +10,10 @@ color: dark
 {% include mailaddress.html %}
 
 ### <i class="fa fa-list-ul"></i> 概要
-* __氏名__：イシジマ ミキ(石嶋 未来)
+* __氏名__：イシジマ ミキ (石嶋 未来)
 * __生年月日__：1982年 11月 17日
 * __出身地__：栃木県出身
-* __現在地__：東京昭島市在住
+* __現在地__：東京昭島市
 * __職業__：デザイナー
 * __所属__：とくになし
 * __肩書__：とくになし
@@ -25,8 +25,8 @@ __193文字__ 1982年生まれ。グラフィックデザイナーとして10年
 ### <i class="fas fa-address-card"></i> プロフィールに付与して欲しいリンク
 * __Website__: [http://mikiishijima.com/](http://mikiishijima.com/)
 * __Twitter__: [https://twitter.com/woopsdez](https://twitter.com/woopsdez)
-* __Facebook__: [https://www.facebook.com/woopsdez](https://www.facebook.com/woopsdez)
-* __Linkedin__: [https://www.instagram.com/mikiishijima_woopsdez/](https://www.instagram.com/mikiishijima_woopsdez/)
+<!-- * __Facebook__: [https://www.facebook.com/woopsdez](https://www.facebook.com/woopsdez)
+* __Linkedin__: [https://www.instagram.com/mikiishijima_woopsdez/](https://www.instagram.com/mikiishijima_woopsdez/) -->
 
 ### <i class="fa fa-picture-o"></i> プロフィール用写真
 サイズは800px以上あります。右クリックで保存してお使いください。
