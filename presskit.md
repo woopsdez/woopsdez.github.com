@@ -25,8 +25,10 @@ __193文字__ 1982年生まれ。グラフィックデザイナーとして10年
 ### <i class="fas fa-address-card"></i> プロフィールに付与して欲しいリンク
 * __Website__: [http://mikiishijima.com/](http://mikiishijima.com/)
 * __Twitter__: [https://twitter.com/woopsdez](https://twitter.com/woopsdez)
-<!-- * __Facebook__: [https://www.facebook.com/woopsdez](https://www.facebook.com/woopsdez)
-* __Linkedin__: [https://www.instagram.com/mikiishijima_woopsdez/](https://www.instagram.com/mikiishijima_woopsdez/) -->
+<!--
+* __Facebook__: [https://www.facebook.com/woopsdez](https://www.facebook.com/woopsdez)
+* __Linkedin__: [https://www.instagram.com/mikiishijima_woopsdez/](https://www.instagram.com/mikiishijima_woopsdez/)
+-->
 
 ### <i class="fa fa-picture-o"></i> プロフィール用写真
 サイズは800px以上あります。右クリックで保存してお使いください。
