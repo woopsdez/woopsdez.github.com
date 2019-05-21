@@ -32,11 +32,11 @@ color: dark
 二期生を希望する、仕事を請けてみたいなど、今後もイシジマからの連絡許可してくださる方は下記フォームにご回答いただけたら幸いです。
 
 デザイナーさん お仕事お願いしたい人名簿(流用しています。タイトルがラボと異りますがご了承ください><)
-https://docs.google.com/forms/d/e/1FAIpQLScbWhIPby8JfDZglLy7p7RGErx-hnDXw6qVdhEDMTuflWOqSw/viewform
+[https://docs.google.com/forms/d/e/1FAIpQLScbWhIPby8JfDZglLy7p7RGErx-hnDXw6qVdhEDMTuflWOqSw/viewform](https://docs.google.com/forms/d/e/1FAIpQLScbWhIPby8JfDZglLy7p7RGErx-hnDXw6qVdhEDMTuflWOqSw/viewform)
 
 #### 課題内容
 こちらに記載しています。ラボについての詳細、受講することで出来るようになることも書いてありますので学びたい事と一致しているかも見ておいてください。
-https://mikiishijima.com/lab-challenge/
+[https://mikiishijima.com/lab-challenge/](https://mikiishijima.com/lab-challenge/)
 
 #### 注意事項
 1. 突然 オンライントレーニングの予定がキャンセルになることもあります。
