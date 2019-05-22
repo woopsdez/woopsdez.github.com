@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: 
 title: "lab challenge"
 background: ""
 color: dark

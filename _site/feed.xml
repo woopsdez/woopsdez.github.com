@@ -3,10 +3,10 @@
   <channel>
     <title>Miki Ishijima</title>
     <description>イシジマミキ 徹底解説</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 May 2019 10:59:23 +0900</pubDate>
-    <lastBuildDate>Tue, 21 May 2019 10:59:23 +0900</lastBuildDate>
+    <link>http://mikiishijima.com/</link>
+    <atom:link href="http://mikiishijima.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 May 2019 14:32:11 +0900</pubDate>
+    <lastBuildDate>Wed, 22 May 2019 14:32:11 +0900</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -54,8 +54,8 @@
 &lt;h3 id=&quot;大逆転裁判2&quot;&gt;大逆転裁判2&lt;/h3&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-07-aceattorney/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-07-aceattorney/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-07-aceattorney/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-07-aceattorney/</guid>
         
         
         <category>gamelife</category>
@@ -81,8 +81,8 @@
 &lt;p&gt;ゲームで大泣きしたはじめての作品、離れ離れになった相棒、旅で出会った人たちに力を借りながら戦う最後。戦いながら画面が涙で見えなくて困った。当時のハードスペックの中であれだけ世界を広く感じたのはこの作品だけだった。走るだけでも楽しい。戦闘も敵ごとに異なる戦略が求められ、作業を感じさせなかった。ゲーム開発者の名前を気にするようになったのはそれだけこの作品にたくさん感動させられたからなんだろうな。&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-06-other/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-06-other/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-06-other/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-06-other/</guid>
         
         
         <category>gamelife</category>
@@ -107,8 +107,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-05-dancegame/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-05-dancegame/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-05-dancegame/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-05-dancegame/</guid>
         
         
         <category>gamelife</category>
@@ -134,8 +134,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-04-superrobotwars/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-04-superrobotwars/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-04-superrobotwars/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-04-superrobotwars/</guid>
         
         
         <category>gamelife</category>
@@ -163,8 +163,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-03-fireemblemseries/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-03-fireemblemseries/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-03-fireemblemseries/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-03-fireemblemseries/</guid>
         
         
         <category>gamelife</category>
@@ -192,8 +192,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-02-atelierseries/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-02-atelierseries/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-02-atelierseries/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-02-atelierseries/</guid>
         
         
         <category>gamelife</category>
@@ -228,8 +228,8 @@
 
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-01-minecraft/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-01-minecraft/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-01-minecraft/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-01-minecraft/</guid>
         
         
         <category>gamelife</category>
@@ -406,8 +406,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/gamelife/2018/01/11/gamelife-00-playedtitles/</link>
-        <guid isPermaLink="true">http://localhost:4000/gamelife/2018/01/11/gamelife-00-playedtitles/</guid>
+        <link>http://mikiishijima.com/gamelife/2018/01/11/gamelife-00-playedtitles/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/gamelife/2018/01/11/gamelife-00-playedtitles/</guid>
         
         
         <category>gamelife</category>
@@ -425,8 +425,8 @@
 &lt;p&gt;そのうち、並べ方に種類を増やしたり、後から追加・削除ができるようにしたりしたい。&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Jan 2018 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/privateworks/2018/01/09/01-yokonaga/</link>
-        <guid isPermaLink="true">http://localhost:4000/privateworks/2018/01/09/01-yokonaga/</guid>
+        <link>http://mikiishijima.com/privateworks/2018/01/09/01-yokonaga/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/privateworks/2018/01/09/01-yokonaga/</guid>
         
         
         <category>privateworks</category>
@@ -441,8 +441,8 @@
 
 </description>
         <pubDate>Tue, 03 May 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/slide/2016/05/03/slide-09-nicovideo/</link>
-        <guid isPermaLink="true">http://localhost:4000/slide/2016/05/03/slide-09-nicovideo/</guid>
+        <link>http://mikiishijima.com/slide/2016/05/03/slide-09-nicovideo/</link>
+        <guid isPermaLink="true">http://mikiishijima.com/slide/2016/05/03/slide-09-nicovideo/</guid>
         
         
         <category>slide</category>
