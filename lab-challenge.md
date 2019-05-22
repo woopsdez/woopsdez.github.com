@@ -49,7 +49,7 @@ jpg,png,svg,pdfなど。
 上記ブログの発想方法から提案の流れは非常に参考になるはずです。
 
 #### 提出先
-(woops.mirai+lab@gmail.com)[woops.mirai+lab@gmail.com]
+woops.mirai+lab@gmail.com
 
 #### 注意事項
 1. 突然 オンライントレーニングの予定がキャンセルになることもあります。
